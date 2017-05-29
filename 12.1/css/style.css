@@ -1,0 +1,36 @@
+/* CSS Document */
+#header{
+	width:500px;
+	height:120px;
+	background:url(../images/logo.png);	
+}
+#box{
+	width:496px;
+	height:498px;
+	border:2px solid #a9e8f7;
+	border-top:none;	
+}
+#div1{
+	width:496px;
+	height:100px;
+	background:#f4c3cd url(../images/email.png) no-repeat 39px 36px;
+	border-bottom:2px solid #ecf4fa;	
+}
+#div2{
+	width:496px;
+	height:100px;
+	background:#f8d7de url(../images/shubiao.png) no-repeat 39px 30px;
+	border-bottom:2px solid #ecf4fa;	
+}
+#div3{
+	width:496px;
+	height:100px;
+	background:#fbe7eb url(../images/smile.png) no-repeat 39px 33px;
+	border-bottom:2px solid #ecf4fa;	
+}
+#div4{
+	width:496px;
+	height:192px;
+	background:#fdf3f5 url(../images/star.png) no-repeat 39px 32px;
+		
+}
