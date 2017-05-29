@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+	div{
+		width:0px;
+		height:0px;
+		border:200px solid transparent;
+		border-bottom-color:red;
+		border-top:none;
+	}
+</style>
+</head>
+
+<body>
+	<div></div>
+    <!--
+    	边框三角形的重点：
+        由于边框之间是互相重合的，所以会呈现梯形的样子，但是要做三角形就只能有三个顶点，所以我们只需要：
+        1.将div的宽高变成0
+        2.需要哪个方向的三角形，就改变相应方向的颜色即可；
+        3.让其他边框的颜色设置为transparent;
+        4.去掉对边边框即可完成；
+        注意：边框三角形形成的原理是依靠边框之间的叠压，所以有重合边框方向是不能去掉的；
+        透明色：transparent；
+        
+    -->
+</body>
+</html>
